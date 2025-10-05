@@ -1,8 +1,8 @@
 class SmartRun < Formula
   desc "Auto-detects script type and runs it in the right environment (teaches as it runs)"
   homepage "https://github.com/solarfish20/smart-run"
-  url "https://github.com/solarfish20/smart-run/releases/download/v1.0.0/smart-run-1.0.0.tar.gz"
-  sha256 "c18f16ebf2bc1ddb3fed7c7b0da02abaae26da131e802f24fcea56037c5eeea7"
+  url "https://github.com/solarfish20/smart-run/releases/download/v1.0.1/smart-run-1.0.1.tar.gz"
+  sha256 "d4a850d725ce30e77c69aa57e6ac1598b2b32ba939e9f0fa6131c66467eb9780"
   license "MIT"
   def install
     bin.install "smart-run"
