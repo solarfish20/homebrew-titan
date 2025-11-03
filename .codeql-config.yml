@@ -1,0 +1,12 @@
+name: Titan Security CodeQL
+disable-default-queries: false
+packs:
+  - codeql/ruby-queries
+  - codeql/python-queries
+  - codeql/javascript-queries
+  - codeql/go-queries
+paths-ignore:
+  - node_modules
+  - dist
+  - build
+  - .venv

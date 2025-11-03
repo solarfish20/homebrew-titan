@@ -1,0 +1,11 @@
+rules:
+  - id: py-os-system-call
+    patterns: [ {pattern: os.system($CMD)} ]
+    message: Avoid os.system; use subprocess.run([...], check=True)
+    severity: WARNING
+    languages: [python]
+  - id: js-eval
+    pattern: eval($X)
+    message: Avoid eval() in JS/TS
+    severity: ERROR
+    languages: [javascript, typescript]
