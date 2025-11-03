@@ -1,0 +1,6 @@
+title = "Titan gitleaks"
+[[rules]]
+description = "Private key"
+id = "titan-private-key"
+regex = '''-----BEGIN (RSA|EC|OPENSSH) PRIVATE KEY-----'''
+tags = ["key", "high"]
